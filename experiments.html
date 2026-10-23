@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Интерактивные музыкальные эксперименты для учащихся студии компьютерной музыки.">
+<title>Музыкальные эксперименты — Студия компьютерной музыки</title>
+<link rel="icon" href="assets/images/logo.jpg">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html"><img src="assets/images/logo.jpg" alt=""><span>Студия компьютерной музыки<small>ДМШ им. Н. П. Ракова</small></span></a>
+<button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+<nav class="nav"><a href="index.html">О студии</a><a href="literature.html">Литература</a><a href="software.html">Программы</a><a class="active" href="experiments.html">Эксперименты</a><a href="lessons.html">Уроки</a></nav>
+</header>
+<main>
+<section class="page-hero"><p class="eyebrow">ПОПРОБУЙ САМ</p><h1>Музыкальные эксперименты</h1><p>Интерактивные инструменты, с которыми можно сочинять ритмы, рисовать музыку, играть со звуками и открывать новые идеи прямо в браузере. Большинство не требует установки.</p></section>
+<section class="section">
+<div class="priority-banner"><span class="priority-star">✦</span><div><b>Как начать</b><p>Выбери инструмент, открой его сайт и попробуй создать короткий ритм, мелодию или звуковую сцену. Не бойся экспериментировать — здесь важен сам процесс.</p></div></div>
+<div class="catalog-controls"><label class="search-box"><span>⌕</span><input id="software-search" type="search" placeholder="Найти эксперимент…" aria-label="Поиск по экспериментам"></label><div class="filter-buttons" id="category-filters"><button class="filter active" data-category="all">Все</button><button class="filter" data-category="visual">Рисунок и движение</button><button class="filter" data-category="rhythm">Ритм и биты</button><button class="filter" data-category="melody">Мелодии</button><button class="filter" data-category="learn">Обучение</button></div></div>
+<p class="results-count" id="results-count" aria-live="polite"></p>
+<div class="software-grid" id="software-grid">
+<article class="software-card" data-category="visual" data-search="draw audio рисование музыка визуальный звук"><div class="software-top"><span class="app-symbol">✎</span><span class="tag free-tag">Бесплатно*</span></div><h3>Draw.Audio</h3><p>Исследуй связь между линиями, движением и звуком. Хорошая отправная точка для визуального эксперимента.</p><div class="meta"><span>Браузер</span><span>Начальный</span></div><a class="text-link" href="https://draw.audio/" target="_blank" rel="noopener">Попробовать ↗</a></article>
+<article class="software-card" data-category="visual" data-search="patatap клавиатура звук анимация"><div class="software-top"><span class="app-symbol">⌨</span><span class="tag">Веб-инструмент*</span></div><h3>Patatap</h3><p>Нажимай клавиши и создавай последовательности звуков и анимаций.</p><div class="meta"><span>Браузер</span><span>Начальный</span></div><a class="text-link" href="https://patatap.com/" target="_blank" rel="noopener">Попробовать ↗</a></article>
+<article class="software-card" data-category="rhythm" data-search="incredibox битбокс вокал ритм"><div class="software-top"><span class="app-symbol">♫</span><span class="tag">Платно / условия зависят от версии</span></div><h3>Incredibox</h3><p>Собирай музыкальный микс из голосов, битов и эффектов, перетаскивая элементы на персонажей.</p><div class="meta"><span>Web / Mac / Windows / iOS / Android</span><span>Начальный</span></div><a class="text-link" href="https://www.incredibox.com/" target="_blank" rel="noopener">Попробовать ↗</a></article>
+<article class="software-card" data-category="rhythm" data-search="typedrummer набор текста барабаны ритм"><div class="software-top"><span class="app-symbol">T</span><span class="tag">Бесплатный веб-инструмент*</span></div><h3>TypeDrummer</h3><p>Печатай слова и слушай, как они превращаются в повторяющийся ритм.</p><div class="meta"><span>Браузер</span><span>Начальный</span></div><a class="text-link" href="https://typedrummer.com/" target="_blank" rel="noopener">Попробовать ↗</a></article>
+<article class="software-card" data-category="rhythm" data-search="groove pizza ритм ударные секвенсор"><div class="software-top"><span class="app-symbol">◉</span><span class="tag free-tag">Бесплатно</span></div><h3>Groove Pizza</h3><p>Создавай ритмические рисунки на круговой сетке и исследуй пульс и деление долей.</p><div class="meta"><span>Браузер</span><span>Начальный</span></div><a class="text-link" href="https://apps.musedlab.org/groovepizza/" target="_blank" rel="noopener">Попробовать ↗</a></article>
+<article class="software-card" data-category="rhythm" data-search="beepbox чиптюн мелодия ритм секвенсор"><div class="software-top"><span class="app-symbol">8b</span><span class="tag free-tag">Бесплатно</span></div><h3>BeepBox</h3><p>Сочиняй короткие мелодии и ритмы в стиле музыки старых игровых приставок.</p><div class="meta"><span>Браузер</span><span>Начальный — средний</span></div><a class="text-link" href="https://www.beepbox.co/" target="_blank" rel="noopener">Попробовать ↗</a></article>
+<article class="software-card" data-category="melody" data-search="online sequencer мелодия ноты композиция"><div class="software-top"><span class="app-symbol">▦</span><span class="tag">Бесплатный доступ*</span></div><h3>Online Sequencer</h3><p>Расставляй ноты на сетке, создавай мелодии и пробуй простую аранжировку.</p><div class="meta"><span>Браузер</span><span>Начальный — средний</span></div><a class="text-link" href="https://onlinesequencer.net/" target="_blank" rel="noopener">Попробовать ↗</a></article>
+<article class="software-card" data-category="learn" data-search="chrome music lab эксперименты музыка мелодия ритм"><div class="software-top"><span class="app-symbol">♪</span><span class="tag free-tag">Бесплатно</span></div><h3>Chrome Music Lab</h3><p>Коллекция коротких опытов со звуком, ритмом, мелодией, гармонией и визуализацией.</p><div class="meta"><span>Браузер</span><span>Начальный</span></div><a class="text-link" href="https://musiclab.chromeexperiments.com/" target="_blank" rel="noopener">Попробовать ↗</a></article>
+<article class="software-card" data-category="learn" data-search="blob opera пение голоса гармония"><div class="software-top"><span class="app-symbol">♫</span><span class="tag free-tag">Бесплатно</span></div><h3>Blob Opera</h3><p>Играй голосами и слушай, как из нескольких партий получается гармония.</p><div class="meta"><span>Браузер</span><span>Начальный</span></div><a class="text-link" href="https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw" target="_blank" rel="noopener">Попробовать ↗</a></article>
+<article class="software-card" data-category="learn" data-search="learning music ableton обучение бит бас мелодия"><div class="software-top"><span class="app-symbol">A</span><span class="tag free-tag">Бесплатно</span></div><h3>Learning Music</h3><p>Пошагово попробуй собрать бит, басовую партию и мелодию в интерактивном курсе.</p><div class="meta"><span>Браузер</span><span>Начальный</span></div><a class="text-link" href="https://learningmusic.ableton.com/" target="_blank" rel="noopener">Попробовать ↗</a></article>
+<article class="software-card" data-category="learn" data-search="learning synths синтезатор осциллятор фильтр"><div class="software-top"><span class="app-symbol">∿</span><span class="tag free-tag">Бесплатно</span></div><h3>Learning Synths</h3><p>Исследуй осцилляторы, фильтры и огибающие, меняя параметры синтезатора.</p><div class="meta"><span>Браузер</span><span>Начальный — средний</span></div><a class="text-link" href="https://learningsynths.ableton.com/" target="_blank" rel="noopener">Попробовать ↗</a></article>
+</div>
+<div class="empty-state" id="empty-state" hidden>Ничего не найдено. Попробуй изменить запрос или категорию.</div>
+<p class="footnote">*Доступность, реклама, ограничения и стоимость могут меняться. Перед занятием проверь сайт инструмента. Для некоторых сервисов может потребоваться включить звук или разрешить воспроизведение в браузере.</p>
+</section>
+<section class="project-band"><div><p class="eyebrow">ХОЧЕШЬ БОЛЬШЕ ВОЗМОЖНОСТЕЙ?</p><h2>Переходи от эксперимента к композиции</h2><p>В основном каталоге собраны DAW, нотные редакторы, синтезаторы и инструменты для работы со звуком.</p></div><a class="button primary" href="software.html">Открыть программы <span>→</span></a></section>
+</main>
+<footer class="site-footer"><a class="brand footer-brand" href="index.html"><img src="assets/images/logo.jpg" alt=""><span>Студия компьютерной музыки<small>ДМШ им. Н. П. Ракова</small></span></a><p>Музыка • технологии • творчество</p><small>Учебный сайт студии компьютерной музыки</small></footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
