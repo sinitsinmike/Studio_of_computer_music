@@ -90,3 +90,52 @@
     max-width: 1376px;
   }
 }
+
+
+/* Additional Logic Pro resources: smaller than the main bibliography and placed below it. */
+.logic-materials-heading {
+  font-size: 1.35rem;
+  margin-top: 54px;
+}
+.logic-materials-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.logic-material-card {
+  padding: 16px;
+  gap: 7px;
+}
+.logic-material-card span {
+  font-size: .62rem;
+  letter-spacing: .07em;
+}
+.logic-material-card b {
+  font-size: .9rem;
+  line-height: 1.4;
+}
+.logic-material-card small {
+  font-size: .78rem;
+  line-height: 1.5;
+}
+.logic-material-card .text-link {
+  font-size: .75rem;
+  margin-top: 8px;
+}
+@media (max-width: 900px) {
+  .logic-materials-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 680px) {
+  .logic-materials-grid { grid-template-columns: 1fr; }
+}
+
+
+/* Compact cards for the user's teaching materials near the top of Literature page. */
+.logic-materials-heading { font-size: 1.35rem; margin-top: 30px; }
+.logic-materials-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-bottom: 34px; }
+.logic-materials-grid .resource-card { padding: 16px; gap: 7px; }
+.logic-materials-grid .resource-card span { font-size: .62rem; letter-spacing: .07em; }
+.logic-materials-grid .resource-card b { font-size: .9rem; line-height: 1.4; }
+.logic-materials-grid .resource-card small { font-size: .78rem; line-height: 1.5; }
+.logic-materials-grid .text-link { font-size: .75rem; margin-top: 8px; }
+@media (max-width: 900px) { .logic-materials-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 680px) { .logic-materials-grid { grid-template-columns: 1fr; } }
